@@ -1,3 +1,15 @@
+@keyframes move {
+    0% {right: auto; top: 0px;}
+    25% {left: auto; top: 0px;}
+    75% {right: 0px; top: 0px}
+}
+
+#redball {
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
 #mainbox {
     background: white;
     border: 2px solid red;
@@ -35,4 +47,5 @@
     align-content: center;
     text-align: center;
 }
+
 
