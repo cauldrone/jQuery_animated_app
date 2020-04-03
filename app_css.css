@@ -1,0 +1,28 @@
+#mainbox {
+    background: lightgray;
+    padding: 2%;
+    margin: 5%;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+#button {
+    background-color: white;
+    position: relative;
+    padding: 10px 24px;
+    border-radius: 12px;
+    border: 2px solid red;
+}
+
+#buttonbox {
+    padding: 0%;
+    margin: 5%;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
