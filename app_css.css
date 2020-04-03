@@ -1,14 +1,23 @@
 #mainbox {
-    background: lightgray;
+    background: white;
+    border: 2px solid red;
     padding: 2%;
     margin: 5%;
     position: relative;
     align-content: center;
     text-align: center;
+    width: auto;
 }
 
 .text {
     text-align: center;
+    color: red;
+}
+
+#title {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
 #button {
@@ -26,3 +35,4 @@
     align-content: center;
     text-align: center;
 }
+
