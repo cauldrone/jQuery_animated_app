@@ -1,0 +1,26 @@
+<html lang ="en">
+    <head>
+        <link rel="stylesheet" href="app_css.css">
+    </head>
+    <body>
+        <h1 class="text" id="title"> Let's Play </h1>
+        <p class="text"> Instructions : Try to get the red ball to hit the center mark as perfectly as possible! </p>
+        <div id="buttonbox">
+        <button id="button">START</button>
+        </div>
+        <div id="mainbox">
+            <div>
+            <svg width="50" height="50">
+                <circle cx="25" cy="25" r="15" stroke="black" stroke=width="1" fill="white"/>
+            </svg>
+            </div>
+            <div>
+            <svg id="redball" width="50" height="50">
+                <circle cx="25" cy="25" r="15" stroke="red" stroke=width="1" fill="red"/>
+            </svg>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app_js.js"></script>
+    </body>
+</html>
