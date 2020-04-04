@@ -8,10 +8,7 @@
 }
 
 #redball {
-    animation-name: move;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    z-index:1;
+position: relative;
 }
 
 #mainbox {
