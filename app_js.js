@@ -4,6 +4,7 @@ $(document).ready(() => {
        $("#redball").stop();
    }
 });
+    $("#button").click(()=> {
 
   function loop() {
     $("#redball").css({ left: 0 });
@@ -20,4 +21,5 @@ $(document).ready(() => {
     );
   }
   loop();
+    });
 });
