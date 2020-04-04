@@ -7,27 +7,11 @@
     100% {border: 4px solid #E936A7;}
 }
 
-@keyframes textchange {
-    0% {content: "Instructions: Try to get the red ball to hit the center mark as perfectly as possible!";}
-    33% {content: "Instructions: Click the start button to commence the game";}
-    66% {content: "Instructions: Press the space bar to stop the ball";}
-    99% {content: "Instructions: Try to get the red ball to hit the center mark as perfectly as possible!";}
-}
-
-p {
-    animation-name: textchange;
-    animation-duration: 4s;
+#hoop {
+    position:relative;
 }
 
 #redball {
-    animation-name: move;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    position:relative;
-
-}
-
-#hoop {
     position:relative;
 }
 
@@ -61,7 +45,7 @@ p {
     border-radius: 12px;
     border: 4px solid red;
     animation-name: bordercolor;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
