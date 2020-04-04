@@ -5,3 +5,4 @@ $(document).ready(function() {
         .animate({left: "400"},2000)
      });
 });
+
