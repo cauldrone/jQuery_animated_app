@@ -12,10 +12,7 @@
 }
 
 #redball {
-<<<<<<< HEAD
-=======
     bottom: 50px;
->>>>>>> origin/master
     position:relative;
 }
 
@@ -27,7 +24,8 @@
     position: relative;
     align-content: center;
     text-align: center;
-    width: auto;
+    width: 500px;
+    height: 55px;
 }
 
 .text {
