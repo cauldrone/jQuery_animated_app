@@ -7,6 +7,20 @@
     100% {border: 4px solid #E936A7;}
 }
 
+@keyframes text {
+    0% {color: magenta;
+        font: italic small-caps bold 5px cursive;}
+    20% {color: #FFCC33;
+        font: italic small-caps bold 10px cursive;}
+    40% {color: orange;
+        font: italic small-caps bold 15px cursive;}
+    60% {color: lime;
+        font: italic small-caps bold 20px cursive;}
+    80% {color: turquoise;
+        font: italic small-caps bold 25px cursive;}
+    100% {color: #E936A7;
+        font: italic small-caps bold 30px cursive;}
+}
 
 #hoop {
     position:relative;
@@ -17,6 +31,16 @@
     position: relative;
 }
 
+#centerbox {
+    background: white;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 2%;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+
 #mainbox {
     background: white;
     border: 2px solid black;
@@ -25,20 +49,29 @@
     position: relative;
     align-content: center;
     text-align: center;
-    width: 500px;
+    width: auto;
     height: 55px;
 }
 
-.text {
+#text {
+    width: auto;
+    height: 40px;
     text-align: center;
-    color: orangered;
+    align-content: center;
+    position: relative;
+}
 
+p {
+    text-align: center;
+    color: grey;
 }
 
 #title {
+    text-align: center;
     color: red;
-    text-decoration: underline;
-    text-decoration-color: red;
+    animation-name: text;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 #button {
