@@ -7,8 +7,16 @@
     100% {border: 4px solid #E936A7;}
 }
 
+#hoop {
+    position:relative;
+}
+
 #redball {
+<<<<<<< HEAD
 position: relative;
+=======
+    position:relative;
+>>>>>>> origin/master
 }
 
 #mainbox {
@@ -41,7 +49,7 @@ position: relative;
     border-radius: 12px;
     border: 4px solid red;
     animation-name: bordercolor;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
