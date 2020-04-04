@@ -1,7 +1,7 @@
 
 $(document).ready(() => {
    $("#button").click(() => {
-    $("#redball").animate({
+    $("svg").animate({
         left: 300
     })
 })
